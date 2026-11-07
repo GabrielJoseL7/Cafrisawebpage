@@ -1,0 +1,372 @@
+body{
+    width: 100%;
+}
+
+.navBarMain{
+    width: 100%;
+    height: 120px;
+    display: flex;
+    margin: none;
+    /* background-color: rgba(0, 0, 255, 0.534); */
+}
+
+.logo{
+    width: 60%;
+    margin: 0;
+}
+
+.navBar{
+    width: 40%;
+    padding: 35px 0;
+}
+
+.cafrisaLogo{
+    width: 300px;
+    height: auto;
+    margin: 0;
+}
+
+.btnnav{
+    font-size: 30px;
+    text-decoration: none;
+    color: #1B5238;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 10px;
+    font-family: Verdana;
+}
+
+.mainContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Carrousel{
+    width: 90%;
+    height: 100%;
+    margin: 0 20% 0 20%;
+    border-radius: 25px;
+    justify-content: center;
+}
+
+.imagen1c{
+    width: 100%;
+    border-radius: 25px;
+}
+
+.AccionYmision{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.Accion,.Mission{
+    width: 560px;
+    height: 406px;
+    display: flex;
+    justify-content: center;
+    background-color: #FFF8EC   ;
+    border-radius: 25px;
+    flex-direction: column;
+    margin: 0 7.5px;
+    padding: 0 27px;
+    align-items: center;
+}
+
+.AccionTitle, .Missiontitle{
+    width: 506px;
+    height: 63px;
+    text-align: center;
+    background-color: white;
+    margin-top: 25px;
+    border-radius: 25px;
+    align-items:center;
+    font-size: 5vh;
+    padding: 20px 0 7px 0;
+}
+
+.Missiontitle{
+    margin-bottom: 29px;
+}
+
+.actionInfo,.MissionInfo{
+    width: 100%;
+    height: 322px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.surveys{
+    width: 100%;
+    
+}
+
+.imagentest{
+    width: 132px;
+    height: 127px;
+}
+
+.Surveys{
+    width: 100%;
+    margin: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.survey, .surveyv2{
+    width: 1135px;
+    height: 135px;
+    margin: 18px 0;
+    display: flex;
+    flex: row;
+    justify-content: center;
+    padding: 13px 0 13px 14px;
+    background-color: #FFF8EC;
+}
+
+.Picture{
+    width: 132px;
+    height: 127px;
+}
+
+.imagentest{
+    border-radius: 25px;
+}
+
+#img2{
+    object-fit: cover;
+}
+
+.survey{
+    padding: 13px 0 13px 14px;
+}
+
+.surveyv2{
+    padding: 13px 14px 13px 0;
+}
+
+.replies{
+    margin: 0;
+   padding: 0 10px;
+}
+
+p{margin: 0;}
+
+footer{
+    width: 100%;
+    height: auto;
+    background-color: #1B5238;
+    font-size: 3vh;
+    text-align: center;
+    color: white;
+    border-radius: 25px 25px 0 0;
+}
+
+.mainHistoria{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.historia{
+    width: 1130px;
+    height: 554px;
+    background-color: #1B5238;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    color: white;
+}
+
+.imgHistoria{
+    width: 554px;
+    height: 554px;
+    object-fit: cover;
+}
+
+#img1{
+    object-position: right center;
+}
+
+.textHistoria{
+    padding: 10px;
+}
+
+.historia, .imgHistoria{
+    border-radius: 25px;
+}
+
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services{
+    width: 1130px;
+    height: 554px;
+    display: flex;
+    border-radius: 25px;
+    margin: 14px;
+    background-color: #FFF8EC;
+}
+
+.servicesText{
+    width: 70%;
+    height: 90%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.servicesText h2{
+    font-weight: bolder;
+    color: #1B5238;
+    font-size: 4vb;
+}
+
+.servicesIMGContainer{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 19px 23px 19px 0px;
+}
+
+.servicesIMGContainer2{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 19px 0px 19px 23px;
+}
+
+.serviceImg{
+    width: 435px;
+    height: 516px;
+    object-fit: cover;
+    display: block;
+    border-radius: 25px;
+}
+
+.btnAdquierelo{
+    top: 85%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -10%);
+    font-size: 3vb;
+    border-radius: 25px;
+    background-color: #ffffff9f;
+    color: #F47B20;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.btnAdquierelo2{
+    font-size: 3vb;
+    border-radius: 25px;
+    background-color: #ffffff9f;
+    color: #F47B20;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.mainContact{
+    width: 100%;
+    height: auto;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 73px;
+}
+
+.contactDetails{
+    width: 1130px;
+    height: 554px;
+    display: flex;
+    flex-direction: row;
+    background-color: #FFF8EC;
+    border-radius: 25px;
+}
+
+.contactText{
+    width: 626px;
+    height: 516px;
+    margin: 19px 23px;
+}
+
+.imgContainerContact{
+    width: 435px;
+    height: 516px;
+    margin: 19px 23px;
+}
+
+.contactIMG{
+    width: 435px;
+    height: 516px;
+    border-radius: 25px;
+}
+
+.ContactForm{
+    width: 680px;
+    height: auto;
+    background-color: #FFF8EC;
+    margin-bottom: 25px;
+    border-radius: 25px;
+}
+
+form{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 40px;
+    padding: 12.5px;
+    gap: 5px;
+    align-items: center;
+}
+
+.ContactForm h2{
+    font-size: 40px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 0;
+}
+
+form textarea{
+    width: 636px;
+    height: 337px;
+    padding: 5px;
+}
+
+form label{
+    text-align: left;
+}
+
+input, textarea{
+    border-radius: 25px;
+    border: 1px solid black;
+}
+
